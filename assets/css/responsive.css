@@ -5,10 +5,11 @@
 	    line-height: 38px;
 	    font-weight: 900;
 	    text-align: start;
+	    left:calc(50% - 52px);
 	}
 	#vticker{
 		text-align: center;
-		width: 60%;
+		width: 100%;
 		margin: 0 auto;
 	}
 	#ticker-div p{
