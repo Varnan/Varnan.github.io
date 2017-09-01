@@ -516,6 +516,7 @@
     </section><!-- End Skills Section -->
 
 
+
     <!-- Works Section -->
     <section id="works" class="works-section section-padding">
       <div class="container">
@@ -863,7 +864,7 @@
           <div class="col-md-6">
             <div class="contact-form">
               <strong>Send me a message</strong>
-              <form name="contact-form" method="post" action="assets/php/sendemail.php">
+              <form name="contact-form" onsubmit="return false;">
                 <div class="form-group">
                   <label for="InputName1">Name</label>
                   <input type="text" name="name" class="form-control" id="InputName1" required="">
@@ -954,7 +955,7 @@
   <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
   <script src="assets/js/jquery.fitvids.js"></script>
   <script src="assets/js/vticker.js"></script>
-  <script src="assets/js/gmap.js"></script>
+ <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&sensor=false&types=geocode&country=India"></script>
   <script src="assets/js/scripts.js"></script>
     <script type="text/javascript">
     $(function() {
